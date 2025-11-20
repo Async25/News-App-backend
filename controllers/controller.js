@@ -95,7 +95,7 @@ const deleteBlog = async function (username, blogId) {
 
     }
 }
-//function for hanfling searh requests
+//function for handling searh requests
 const searchBlogs = async function (searchTerm) {
     try {
         const searchQuery = await blog.find({
